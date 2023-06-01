@@ -1,0 +1,140 @@
+Test Case: Sabiranje dva pozitivna broja
+Input: "4+5"
+Expected Output: "9.0"
+Actual Output: "9.0"
+Test Result: "PASS"
+
+Test Case: Oduzimanje dva pozitivna broja
+Input: "5-2"
+Expected Output: "3.0"
+Actual Output: "3.0"
+Test Result: "PASS"
+
+Test Case: Mnozenje dva pozitivna broja
+Input: "4*5"
+Expected Output: "20.0"
+Actual Output: "20.0"
+Test Result: "PASS"
+
+Test Case: Deljenje dva pozitivna broja
+Input: "6/2"
+Expected Output: "3.0"
+Actual Output: "3.0"
+Test Result: "PASS"
+
+Test Case: Oduzimanje brojeva kada je rezultat negativan
+Input: "5-8"
+Expected Output: "-3.0"
+Actual Output: "-3.0"
+Test Result: "PASS"
+
+Test Case: Deljenje sa ostatkom
+Input: "7/2"
+Expected Output: "3.5"
+Actual Output: "3.5"
+Test Result: "PASS"
+
+Test Case: Deljenje sa nulom
+Input: "3/0"
+Expected Output: "Infinity"
+Actual Output: "Infinity"
+Test Result: "PASS"
+
+Test Case: Deljenje nule nekim brojem
+Input: "0/3"
+Expected Output: "0.0"
+Actual Output: "0.0"
+Test Result: "PASS"
+
+Test Case: Unos samo jednog broja
+Input: "3223"
+Expected Output: "3223.0"
+Actual Output: "3223.0"
+Test Result: "PASS"
+
+Test Case: Operacije sa zagradama
+Input: "8*(2+3)"
+Expected Output: "40.0"
+Actual Output: "ERROR"
+Test Result: "FAIL"
+
+Test Case: Unos teksta
+Input: "8*a+3"
+Expected Output: "ERROR"
+Actual Output: "ERROR"
+Test Result: "PASS"
+
+Test Case: Unos neke druge matematicke operacije
+Input: "5%"
+Expected Output: "0.05"
+Actual Output: "ERROR"
+Test Result: "FAIL"
+
+Test Case: Deljenje decimalnih brojeva
+Input: "8.837/3.333"
+Expected Output: "2.651365"
+Actual Output: "2.651365"
+Test Result: "PASS"
+
+Test Case: Deljenje dva negativna broja
+Input: "-6/-3"
+Expected Output: "2.0"
+Actual Output: "ERROR"
+Test Result: "FAIL"
+
+Test Case: Deljenje 0 sa 0
+Input: "0/0"
+Expected Output: "NaN"
+Actual Output: "NaN"
+Test Result: "PASS"
+
+Test Case: Unos komande za izlaz
+Input: "exit"
+Expected Output: "Prekid programa"
+Actual Output: "Prekid programa"
+Test Result: "PASS"
+
+Test Case: Pritisak samo tastera ENTER
+Input: ""
+Expected Output: "Program ne bi trebalo da se prekine"
+Actual Output: "Program se prekinuo"
+Test Result: "FAIL"
+
+Test Case: Unos samo razmaka
+Input: " "
+Expected Output: "ERROR"
+Actual Output: "ERROR"
+Test Result: "PASS"
+
+Test Case: Pisanje naredbe za izlaz velikim slovima
+Input: "QUIT"
+Expected Output: "ERROR"
+Actual Output: "ERROR"
+Test Result: "PASS"
+
+Test Case: Pisanje decimale samo sa tackom
+Input: ".9-.3"
+Expected Output: ".5999"
+Actual Output: ".5999"
+Test Result: "PASS"
+
+Test Case: Oduzimanje dva negativna broja
+Input: "-5-9"
+Expected Output: "-14.0"
+Actual Output: "-14.0"
+Test Result: "PASS"
+
+Test Case: Operacija sa razmakom izmedju operatora
+Input: "9 + 5 - 4"
+Expected Output: "10.0"
+Actual Output: "10.0"
+Test Result: "PASS"
+
+Zapazanja:Osim navedenih propusta, program je lak za koriscenje, funkcionise brzo i efikasno.
+
+
+
+
+
+
+
